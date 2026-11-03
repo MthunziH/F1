@@ -25,7 +25,7 @@ def save_history(df: pd.DataFrame) -> None:
 def circuit_ids(season: int) -> dict[int, str]:
     try:
         erg = sources._ergast()
-        sched = erg.get_race_schedule(season=season)
+        sched = sources._with_retry(erg.get_race_schedule, season=season)
         return {int(r["round"]): r["circuitId"] for _, r in sched.iterrows()}
     except Exception as exc:
         log.warning("Could not load circuit ids for %s: %s", season, exc)
@@ -53,7 +53,11 @@ def update_history(now: pd.Timestamp) -> tuple[pd.DataFrame, bool]:
             continue
         if season not in have_seasons:
             log.info("Fetching season %s from Ergast", season)
-            df = sources.ergast_season(season)
+            try:
+                df = sources.ergast_season(season)
+            except Exception as exc:
+                log.warning("Season %s fetch failed (will retry next run): %s", season, exc)
+                continue
             if not df.empty:
                 hist = pd.concat([hist, df], ignore_index=True)
                 changed = True

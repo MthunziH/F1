@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import logging
 import re
+import time
 from datetime import timedelta
 
 import numpy as np
@@ -117,6 +118,21 @@ def _ergast():
     return Ergast(result_type="pandas", auto_cast=True, limit=100)
 
 
+def _with_retry(fn, *args, **kwargs):
+    """Jolpica (Ergast) allows ~4 requests/s and 500/hour; back off on 429."""
+    delay = 5
+    for attempt in range(6):
+        try:
+            time.sleep(0.4)
+            return fn(*args, **kwargs)
+        except Exception as exc:
+            if "Too Many Requests" not in str(exc) or attempt == 5:
+                raise
+            log.info("Ergast rate limit hit, waiting %ss", delay)
+            time.sleep(delay)
+            delay *= 2
+
+
 def _collect_pages(resp) -> pd.DataFrame:
     frames = []
     while True:
@@ -131,7 +147,7 @@ def _collect_pages(resp) -> pd.DataFrame:
         h = resp._response_headers
         if int(h.get("offset", 0)) + int(h.get("limit", 0)) >= int(h.get("total", 0)):
             break
-        resp = resp.get_next_result_page()
+        resp = _with_retry(resp.get_next_result_page)
     if not frames:
         return pd.DataFrame()
     return pd.concat(frames, ignore_index=True)
@@ -140,11 +156,11 @@ def _collect_pages(resp) -> pd.DataFrame:
 def ergast_season(season: int) -> pd.DataFrame:
     """All race results + qualifying for one season, in HISTORY_COLUMNS form."""
     erg = _ergast()
-    races = _collect_pages(erg.get_race_results(season=season))
+    races = _collect_pages(_with_retry(erg.get_race_results, season=season))
     if races.empty:
         return pd.DataFrame(columns=HISTORY_COLUMNS)
     races = races.drop_duplicates(["season", "round", "driverId"])
-    quali = _collect_pages(erg.get_qualifying_results(season=season))
+    quali = _collect_pages(_with_retry(erg.get_qualifying_results, season=season))
     if not quali.empty:
         quali = quali.drop_duplicates(["season", "round", "driverId"])
         quali["q_best_s"] = quali.apply(best_quali_time, axis=1)
@@ -161,7 +177,7 @@ def ergast_season(season: int) -> pd.DataFrame:
 
 def ergast_qualifying(season: int, rnd: int) -> pd.DataFrame | None:
     erg = _ergast()
-    q = _collect_pages(erg.get_qualifying_results(season=season, round=rnd))
+    q = _collect_pages(_with_retry(erg.get_qualifying_results, season=season, round=rnd))
     if q.empty:
         return None
     q["q_best_s"] = q.apply(best_quali_time, axis=1)
