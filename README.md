@@ -50,5 +50,5 @@ pip install -r requirements.txt
 python -m f1predict auto                          # same as the scheduled job
 python -m f1predict predict --season 2026 --round 20
 python -m f1predict backtest
-pytest -q                                         # offline tests (synthetic data)
+python -m pytest -q                                      # offline tests (synthetic data)
 ```
