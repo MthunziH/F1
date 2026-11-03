@@ -46,7 +46,7 @@ def _fastf1():
 
     logging.getLogger("fastf1").setLevel(logging.WARNING)
     config.CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    fastf1.Cache.enable_cache(str(config.CACHE_DIR))
+    fastf1.Cache.configure(cache_dir=str(config.CACHE_DIR))
     return fastf1
 
 
@@ -128,7 +128,8 @@ def _collect_pages(resp) -> pd.DataFrame:
             part["circuitId"] = desc.get("circuitId")
             part["date"] = pd.Timestamp(desc.get("raceDate")).date().isoformat() if pd.notna(desc.get("raceDate")) else None
             frames.append(part)
-        if resp.is_complete:
+        h = resp._response_headers
+        if int(h.get("offset", 0)) + int(h.get("limit", 0)) >= int(h.get("total", 0)):
             break
         resp = resp.get_next_result_page()
     if not frames:
