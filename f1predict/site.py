@@ -185,7 +185,9 @@ def build_site(next_event: dict | None = None) -> None:
     <h3>How it works</h3>
     <p>After qualifying, a gradient-boosting model trained on every race since 2018 rates each driver using:
     qualifying position and gap to pole, teammate comparison, recent driver and team form, reliability,
-    season points, and past results at this track. It outputs each driver's chance to win and to finish on the podium.
+    season points, and past results at this track. That's blended 50/50 with how often each grid slot has historically
+    won or reached the podium, which stops the model from over-ruling the pole sitter on form alone.
+    It outputs each driver's chance to win and to finish on the podium.
     Data: <a href="https://github.com/theOehrly/Fast-F1">FastF1</a>.</p>
     <p>Grid penalties announced after qualifying aren't included, and nobody can predict crashes, rain or safety cars, so treat these as odds, not certainties.</p>
   </section>"""

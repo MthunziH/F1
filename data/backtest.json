@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-03T12:17:11Z",
+ "generated_utc": "2026-11-03T12:34:24Z",
  "from_season": 2024,
  "races": [
   {
@@ -21,7 +21,7 @@
     "LEC",
     "RUS"
    ],
-   "p_actual_winner": 0.9391,
+   "p_actual_winner": 0.627,
    "model": {
     "winner": true,
     "podium_hits": 1,
@@ -52,7 +52,7 @@
     "LEC",
     "PER"
    ],
-   "p_actual_winner": 0.9652,
+   "p_actual_winner": 0.6643,
    "model": {
     "winner": true,
     "podium_hits": 3,
@@ -83,7 +83,7 @@
     "SAI",
     "PER"
    ],
-   "p_actual_winner": 0.0236,
+   "p_actual_winner": 0.1301,
    "model": {
     "winner": false,
     "podium_hits": 1,
@@ -114,7 +114,7 @@
     "PER",
     "NOR"
    ],
-   "p_actual_winner": 0.6724,
+   "p_actual_winner": 0.5687,
    "model": {
     "winner": true,
     "podium_hits": 2,
@@ -131,9 +131,9 @@
    "round": 5,
    "eventName": "Chinese Grand Prix",
    "predicted": [
-    "PER",
     "VER",
-    "LEC"
+    "PER",
+    "ALO"
    ],
    "actual": [
     "VER",
@@ -145,9 +145,9 @@
     "PER",
     "ALO"
    ],
-   "p_actual_winner": 0.4525,
+   "p_actual_winner": 0.5645,
    "model": {
-    "winner": false,
+    "winner": true,
     "podium_hits": 2,
     "exact": false
    },
@@ -163,8 +163,8 @@
    "eventName": "Miami Grand Prix",
    "predicted": [
     "VER",
-    "PER",
-    "LEC"
+    "LEC",
+    "SAI"
    ],
    "actual": [
     "NOR",
@@ -176,7 +176,7 @@
     "LEC",
     "SAI"
    ],
-   "p_actual_winner": 0.0076,
+   "p_actual_winner": 0.0301,
    "model": {
     "winner": false,
     "podium_hits": 2,
@@ -207,7 +207,7 @@
     "PIA",
     "NOR"
    ],
-   "p_actual_winner": 0.7023,
+   "p_actual_winner": 0.5765,
    "model": {
     "winner": true,
     "podium_hits": 2,
@@ -224,9 +224,9 @@
    "round": 8,
    "eventName": "Monaco Grand Prix",
    "predicted": [
-    "VER",
     "LEC",
-    "PIA"
+    "PIA",
+    "SAI"
    ],
    "actual": [
     "LEC",
@@ -238,11 +238,11 @@
     "PIA",
     "SAI"
    ],
-   "p_actual_winner": 0.1518,
+   "p_actual_winner": 0.4128,
    "model": {
-    "winner": false,
-    "podium_hits": 2,
-    "exact": false
+    "winner": true,
+    "podium_hits": 3,
+    "exact": true
    },
    "baseline": {
     "winner": true,
@@ -255,8 +255,8 @@
    "round": 9,
    "eventName": "Canadian Grand Prix",
    "predicted": [
-    "VER",
     "RUS",
+    "VER",
     "NOR"
    ],
    "actual": [
@@ -269,9 +269,9 @@
     "VER",
     "NOR"
    ],
-   "p_actual_winner": 0.5641,
+   "p_actual_winner": 0.3692,
    "model": {
-    "winner": true,
+    "winner": false,
     "podium_hits": 3,
     "exact": false
    },
@@ -286,9 +286,9 @@
    "round": 10,
    "eventName": "Spanish Grand Prix",
    "predicted": [
-    "VER",
     "NOR",
-    "LEC"
+    "VER",
+    "HAM"
    ],
    "actual": [
     "VER",
@@ -300,10 +300,10 @@
     "VER",
     "HAM"
    ],
-   "p_actual_winner": 0.5671,
+   "p_actual_winner": 0.3153,
    "model": {
-    "winner": true,
-    "podium_hits": 2,
+    "winner": false,
+    "podium_hits": 3,
     "exact": false
    },
    "baseline": {
@@ -318,8 +318,8 @@
    "eventName": "Austrian Grand Prix",
    "predicted": [
     "VER",
-    "RUS",
-    "SAI"
+    "NOR",
+    "RUS"
    ],
    "actual": [
     "RUS",
@@ -331,10 +331,10 @@
     "NOR",
     "RUS"
    ],
-   "p_actual_winner": 0.0924,
+   "p_actual_winner": 0.1176,
    "model": {
     "winner": false,
-    "podium_hits": 2,
+    "podium_hits": 1,
     "exact": false
    },
    "baseline": {
@@ -349,7 +349,7 @@
    "eventName": "British Grand Prix",
    "predicted": [
     "RUS",
-    "VER",
+    "NOR",
     "HAM"
    ],
    "actual": [
@@ -362,7 +362,7 @@
     "HAM",
     "NOR"
    ],
-   "p_actual_winner": 0.073,
+   "p_actual_winner": 0.1381,
    "model": {
     "winner": false,
     "podium_hits": 2,
@@ -393,7 +393,7 @@
     "PIA",
     "VER"
    ],
-   "p_actual_winner": 0.0478,
+   "p_actual_winner": 0.1548,
    "model": {
     "winner": false,
     "podium_hits": 2,
@@ -412,7 +412,7 @@
    "predicted": [
     "VER",
     "LEC",
-    "HAM"
+    "PER"
    ],
    "actual": [
     "HAM",
@@ -424,10 +424,10 @@
     "LEC",
     "PER"
    ],
-   "p_actual_winner": 0.0657,
+   "p_actual_winner": 0.0514,
    "model": {
     "winner": false,
-    "podium_hits": 2,
+    "podium_hits": 1,
     "exact": false
    },
    "baseline": {
@@ -443,7 +443,7 @@
    "predicted": [
     "NOR",
     "VER",
-    "RUS"
+    "PIA"
    ],
    "actual": [
     "NOR",
@@ -455,7 +455,7 @@
     "VER",
     "PIA"
    ],
-   "p_actual_winner": 0.8253,
+   "p_actual_winner": 0.5595,
    "model": {
     "winner": true,
     "podium_hits": 2,
@@ -473,8 +473,8 @@
    "eventName": "Italian Grand Prix",
    "predicted": [
     "NOR",
-    "RUS",
-    "PIA"
+    "PIA",
+    "RUS"
    ],
    "actual": [
     "LEC",
@@ -486,7 +486,7 @@
     "PIA",
     "RUS"
    ],
-   "p_actual_winner": 0.003,
+   "p_actual_winner": 0.033,
    "model": {
     "winner": false,
     "podium_hits": 2,
@@ -517,7 +517,7 @@
     "PIA",
     "SAI"
    ],
-   "p_actual_winner": 0.2682,
+   "p_actual_winner": 0.2463,
    "model": {
     "winner": false,
     "podium_hits": 2,
@@ -535,8 +535,8 @@
    "eventName": "Singapore Grand Prix",
    "predicted": [
     "NOR",
-    "HAM",
-    "PIA"
+    "VER",
+    "HAM"
    ],
    "actual": [
     "NOR",
@@ -548,7 +548,7 @@
     "VER",
     "HAM"
    ],
-   "p_actual_winner": 0.8976,
+   "p_actual_winner": 0.5327,
    "model": {
     "winner": true,
     "podium_hits": 2,
@@ -567,7 +567,7 @@
    "predicted": [
     "NOR",
     "VER",
-    "PIA"
+    "SAI"
    ],
    "actual": [
     "LEC",
@@ -579,10 +579,10 @@
     "VER",
     "SAI"
    ],
-   "p_actual_winner": 0.0071,
+   "p_actual_winner": 0.0432,
    "model": {
     "winner": false,
-    "podium_hits": 1,
+    "podium_hits": 2,
     "exact": false
    },
    "baseline": {
@@ -596,9 +596,9 @@
    "round": 20,
    "eventName": "Mexico City Grand Prix",
    "predicted": [
+    "SAI",
     "NOR",
-    "VER",
-    "SAI"
+    "VER"
    ],
    "actual": [
     "SAI",
@@ -610,9 +610,9 @@
     "VER",
     "NOR"
    ],
-   "p_actual_winner": 0.3003,
+   "p_actual_winner": 0.4309,
    "model": {
-    "winner": false,
+    "winner": true,
     "podium_hits": 2,
     "exact": false
    },
@@ -629,7 +629,7 @@
    "predicted": [
     "NOR",
     "RUS",
-    "LEC"
+    "TSU"
    ],
    "actual": [
     "VER",
@@ -641,7 +641,7 @@
     "RUS",
     "TSU"
    ],
-   "p_actual_winner": 0.0008,
+   "p_actual_winner": 0.0059,
    "model": {
     "winner": false,
     "podium_hits": 0,
@@ -672,7 +672,7 @@
     "SAI",
     "GAS"
    ],
-   "p_actual_winner": 0.8431,
+   "p_actual_winner": 0.4492,
    "model": {
     "winner": true,
     "podium_hits": 2,
@@ -689,9 +689,9 @@
    "round": 23,
    "eventName": "Qatar Grand Prix",
    "predicted": [
+    "VER",
     "RUS",
-    "PIA",
-    "VER"
+    "NOR"
    ],
    "actual": [
     "VER",
@@ -703,10 +703,10 @@
     "RUS",
     "NOR"
    ],
-   "p_actual_winner": 0.1313,
+   "p_actual_winner": 0.4428,
    "model": {
-    "winner": false,
-    "podium_hits": 2,
+    "winner": true,
+    "podium_hits": 1,
     "exact": false
    },
    "baseline": {
@@ -722,7 +722,7 @@
    "predicted": [
     "NOR",
     "PIA",
-    "HUL"
+    "SAI"
    ],
    "actual": [
     "NOR",
@@ -734,10 +734,10 @@
     "PIA",
     "SAI"
    ],
-   "p_actual_winner": 0.4915,
+   "p_actual_winner": 0.5012,
    "model": {
     "winner": true,
-    "podium_hits": 1,
+    "podium_hits": 2,
     "exact": false
    },
    "baseline": {
@@ -765,7 +765,7 @@
     "PIA",
     "VER"
    ],
-   "p_actual_winner": 0.5627,
+   "p_actual_winner": 0.5017,
    "model": {
     "winner": true,
     "podium_hits": 2,
@@ -782,8 +782,8 @@
    "round": 2,
    "eventName": "Chinese Grand Prix",
    "predicted": [
-    "RUS",
     "PIA",
+    "RUS",
     "NOR"
    ],
    "actual": [
@@ -796,9 +796,9 @@
     "RUS",
     "NOR"
    ],
-   "p_actual_winner": 0.3483,
+   "p_actual_winner": 0.3836,
    "model": {
-    "winner": false,
+    "winner": true,
     "podium_hits": 3,
     "exact": false
    },
@@ -827,7 +827,7 @@
     "NOR",
     "PIA"
    ],
-   "p_actual_winner": 0.7411,
+   "p_actual_winner": 0.4502,
    "model": {
     "winner": true,
     "podium_hits": 3,
@@ -858,7 +858,7 @@
     "RUS",
     "LEC"
    ],
-   "p_actual_winner": 0.8279,
+   "p_actual_winner": 0.5521,
    "model": {
     "winner": true,
     "podium_hits": 2,
@@ -889,7 +889,7 @@
     "PIA",
     "RUS"
    ],
-   "p_actual_winner": 0.1405,
+   "p_actual_winner": 0.2036,
    "model": {
     "winner": false,
     "podium_hits": 2,
@@ -906,9 +906,9 @@
    "round": 6,
    "eventName": "Miami Grand Prix",
    "predicted": [
+    "VER",
     "NOR",
-    "PIA",
-    "VER"
+    "ANT"
    ],
    "actual": [
     "PIA",
@@ -920,10 +920,10 @@
     "NOR",
     "ANT"
    ],
-   "p_actual_winner": 0.0465,
+   "p_actual_winner": 0.0611,
    "model": {
     "winner": false,
-    "podium_hits": 2,
+    "podium_hits": 1,
     "exact": false
    },
    "baseline": {
@@ -951,7 +951,7 @@
     "VER",
     "RUS"
    ],
-   "p_actual_winner": 0.1295,
+   "p_actual_winner": 0.1531,
    "model": {
     "winner": false,
     "podium_hits": 2,
@@ -982,7 +982,7 @@
     "LEC",
     "PIA"
    ],
-   "p_actual_winner": 0.6928,
+   "p_actual_winner": 0.5644,
    "model": {
     "winner": true,
     "podium_hits": 3,
@@ -1000,8 +1000,8 @@
    "eventName": "Spanish Grand Prix",
    "predicted": [
     "PIA",
-    "VER",
-    "NOR"
+    "NOR",
+    "VER"
    ],
    "actual": [
     "PIA",
@@ -1013,7 +1013,7 @@
     "NOR",
     "VER"
    ],
-   "p_actual_winner": 0.5495,
+   "p_actual_winner": 0.4993,
    "model": {
     "winner": true,
     "podium_hits": 2,
@@ -1044,7 +1044,7 @@
     "VER",
     "PIA"
    ],
-   "p_actual_winner": 0.5111,
+   "p_actual_winner": 0.4609,
    "model": {
     "winner": true,
     "podium_hits": 2,
@@ -1075,7 +1075,7 @@
     "LEC",
     "PIA"
    ],
-   "p_actual_winner": 0.6986,
+   "p_actual_winner": 0.5224,
    "model": {
     "winner": true,
     "podium_hits": 3,
@@ -1092,8 +1092,8 @@
    "round": 12,
    "eventName": "British Grand Prix",
    "predicted": [
-    "PIA",
     "VER",
+    "PIA",
     "NOR"
    ],
    "actual": [
@@ -1106,7 +1106,7 @@
     "PIA",
     "NOR"
    ],
-   "p_actual_winner": 0.079,
+   "p_actual_winner": 0.1205,
    "model": {
     "winner": false,
     "podium_hits": 2,
@@ -1137,7 +1137,7 @@
     "PIA",
     "LEC"
    ],
-   "p_actual_winner": 0.0612,
+   "p_actual_winner": 0.2455,
    "model": {
     "winner": false,
     "podium_hits": 3,
@@ -1154,9 +1154,9 @@
    "round": 14,
    "eventName": "Hungarian Grand Prix",
    "predicted": [
-    "NOR",
+    "LEC",
     "PIA",
-    "LEC"
+    "NOR"
    ],
    "actual": [
     "NOR",
@@ -1168,9 +1168,9 @@
     "PIA",
     "NOR"
    ],
-   "p_actual_winner": 0.4349,
+   "p_actual_winner": 0.2229,
    "model": {
-    "winner": true,
+    "winner": false,
     "podium_hits": 2,
     "exact": false
    },
@@ -1187,7 +1187,7 @@
    "predicted": [
     "PIA",
     "NOR",
-    "RUS"
+    "VER"
    ],
    "actual": [
     "PIA",
@@ -1199,10 +1199,10 @@
     "NOR",
     "VER"
    ],
-   "p_actual_winner": 0.4939,
+   "p_actual_winner": 0.5045,
    "model": {
     "winner": true,
-    "podium_hits": 1,
+    "podium_hits": 2,
     "exact": false
    },
    "baseline": {
@@ -1230,7 +1230,7 @@
     "NOR",
     "PIA"
    ],
-   "p_actual_winner": 0.6069,
+   "p_actual_winner": 0.3546,
    "model": {
     "winner": true,
     "podium_hits": 3,
@@ -1248,8 +1248,8 @@
    "eventName": "Azerbaijan Grand Prix",
    "predicted": [
     "VER",
-    "RUS",
-    "NOR"
+    "SAI",
+    "ANT"
    ],
    "actual": [
     "VER",
@@ -1261,7 +1261,7 @@
     "SAI",
     "LAW"
    ],
-   "p_actual_winner": 0.7323,
+   "p_actual_winner": 0.5859,
    "model": {
     "winner": true,
     "podium_hits": 2,
@@ -1280,7 +1280,7 @@
    "predicted": [
     "RUS",
     "PIA",
-    "NOR"
+    "VER"
    ],
    "actual": [
     "RUS",
@@ -1292,7 +1292,7 @@
     "VER",
     "PIA"
    ],
-   "p_actual_winner": 0.6482,
+   "p_actual_winner": 0.5302,
    "model": {
     "winner": true,
     "podium_hits": 2,
@@ -1310,8 +1310,8 @@
    "eventName": "United States Grand Prix",
    "predicted": [
     "VER",
-    "LEC",
-    "NOR"
+    "NOR",
+    "LEC"
    ],
    "actual": [
     "VER",
@@ -1323,11 +1323,11 @@
     "NOR",
     "LEC"
    ],
-   "p_actual_winner": 0.3394,
+   "p_actual_winner": 0.5204,
    "model": {
     "winner": true,
     "podium_hits": 3,
-    "exact": false
+    "exact": true
    },
    "baseline": {
     "winner": true,
@@ -1341,8 +1341,8 @@
    "eventName": "Mexico City Grand Prix",
    "predicted": [
     "NOR",
-    "VER",
-    "LEC"
+    "LEC",
+    "HAM"
    ],
    "actual": [
     "NOR",
@@ -1354,10 +1354,10 @@
     "LEC",
     "HAM"
    ],
-   "p_actual_winner": 0.5948,
+   "p_actual_winner": 0.5328,
    "model": {
     "winner": true,
-    "podium_hits": 3,
+    "podium_hits": 2,
     "exact": false
    },
    "baseline": {
@@ -1372,8 +1372,8 @@
    "eventName": "S\u00e3o Paulo Grand Prix",
    "predicted": [
     "NOR",
-    "LEC",
-    "VER"
+    "ANT",
+    "LEC"
    ],
    "actual": [
     "NOR",
@@ -1385,7 +1385,7 @@
     "ANT",
     "LEC"
    ],
-   "p_actual_winner": 0.8696,
+   "p_actual_winner": 0.5953,
    "model": {
     "winner": true,
     "podium_hits": 2,
@@ -1416,7 +1416,7 @@
     "VER",
     "SAI"
    ],
-   "p_actual_winner": 0.308,
+   "p_actual_winner": 0.2549,
    "model": {
     "winner": false,
     "podium_hits": 1,
@@ -1447,7 +1447,7 @@
     "NOR",
     "VER"
    ],
-   "p_actual_winner": 0.2703,
+   "p_actual_winner": 0.2417,
    "model": {
     "winner": false,
     "podium_hits": 2,
@@ -1478,7 +1478,7 @@
     "NOR",
     "PIA"
    ],
-   "p_actual_winner": 0.9242,
+   "p_actual_winner": 0.6229,
    "model": {
     "winner": true,
     "podium_hits": 3,
@@ -1496,8 +1496,8 @@
    "eventName": "Australian Grand Prix",
    "predicted": [
     "RUS",
-    "HAD",
-    "ANT"
+    "ANT",
+    "HAD"
    ],
    "actual": [
     "RUS",
@@ -1509,7 +1509,7 @@
     "ANT",
     "HAD"
    ],
-   "p_actual_winner": 0.8055,
+   "p_actual_winner": 0.5843,
    "model": {
     "winner": true,
     "podium_hits": 2,
@@ -1527,8 +1527,8 @@
    "eventName": "Chinese Grand Prix",
    "predicted": [
     "ANT",
-    "HAM",
-    "LEC"
+    "RUS",
+    "HAM"
    ],
    "actual": [
     "ANT",
@@ -1540,11 +1540,11 @@
     "RUS",
     "HAM"
    ],
-   "p_actual_winner": 0.7267,
+   "p_actual_winner": 0.5641,
    "model": {
     "winner": true,
-    "podium_hits": 2,
-    "exact": false
+    "podium_hits": 3,
+    "exact": true
    },
    "baseline": {
     "winner": true,
@@ -1559,7 +1559,7 @@
    "predicted": [
     "ANT",
     "RUS",
-    "LEC"
+    "PIA"
    ],
    "actual": [
     "ANT",
@@ -1571,7 +1571,7 @@
     "RUS",
     "PIA"
    ],
-   "p_actual_winner": 0.9064,
+   "p_actual_winner": 0.6193,
    "model": {
     "winner": true,
     "podium_hits": 2,
@@ -1589,8 +1589,8 @@
    "eventName": "Miami Grand Prix",
    "predicted": [
     "ANT",
-    "LEC",
-    "NOR"
+    "VER",
+    "LEC"
    ],
    "actual": [
     "ANT",
@@ -1602,10 +1602,10 @@
     "VER",
     "LEC"
    ],
-   "p_actual_winner": 0.6353,
+   "p_actual_winner": 0.5146,
    "model": {
     "winner": true,
-    "podium_hits": 2,
+    "podium_hits": 1,
     "exact": false
    },
    "baseline": {
@@ -1633,7 +1633,7 @@
     "ANT",
     "NOR"
    ],
-   "p_actual_winner": 0.1785,
+   "p_actual_winner": 0.2366,
    "model": {
     "winner": false,
     "podium_hits": 1,
@@ -1664,7 +1664,7 @@
     "VER",
     "HAM"
    ],
-   "p_actual_winner": 0.9307,
+   "p_actual_winner": 0.6453,
    "model": {
     "winner": true,
     "podium_hits": 2,
@@ -1681,8 +1681,8 @@
    "round": 7,
    "eventName": "Barcelona Grand Prix",
    "predicted": [
-    "ANT",
     "RUS",
+    "ANT",
     "HAM"
    ],
    "actual": [
@@ -1695,7 +1695,7 @@
     "HAM",
     "ANT"
    ],
-   "p_actual_winner": 0.0287,
+   "p_actual_winner": 0.1598,
    "model": {
     "winner": false,
     "podium_hits": 2,
@@ -1713,8 +1713,8 @@
    "eventName": "Austrian Grand Prix",
    "predicted": [
     "RUS",
-    "ANT",
-    "HAM"
+    "HAM",
+    "LEC"
    ],
    "actual": [
     "RUS",
@@ -1726,10 +1726,10 @@
     "LEC",
     "HAM"
    ],
-   "p_actual_winner": 0.8035,
+   "p_actual_winner": 0.5256,
    "model": {
     "winner": true,
-    "podium_hits": 2,
+    "podium_hits": 1,
     "exact": false
    },
    "baseline": {
@@ -1745,7 +1745,7 @@
    "predicted": [
     "ANT",
     "HAM",
-    "RUS"
+    "LEC"
    ],
    "actual": [
     "LEC",
@@ -1757,7 +1757,7 @@
     "LEC",
     "HAM"
    ],
-   "p_actual_winner": 0.0068,
+   "p_actual_winner": 0.1124,
    "model": {
     "winner": false,
     "podium_hits": 2,
@@ -1788,7 +1788,7 @@
     "VER",
     "NOR"
    ],
-   "p_actual_winner": 0.8793,
+   "p_actual_winner": 0.6272,
    "model": {
     "winner": true,
     "podium_hits": 2,
@@ -1805,8 +1805,8 @@
    "round": 11,
    "eventName": "Hungarian Grand Prix",
    "predicted": [
+    "NOR",
     "HAM",
-    "ANT",
     "LEC"
    ],
    "actual": [
@@ -1819,9 +1819,9 @@
     "HAM",
     "LEC"
    ],
-   "p_actual_winner": 0.1293,
+   "p_actual_winner": 0.3817,
    "model": {
-    "winner": false,
+    "winner": true,
     "podium_hits": 1,
     "exact": false
    },
@@ -1836,8 +1836,8 @@
    "round": 12,
    "eventName": "Dutch Grand Prix",
    "predicted": [
-    "ANT",
     "NOR",
+    "ANT",
     "RUS"
    ],
    "actual": [
@@ -1850,11 +1850,11 @@
     "RUS",
     "ANT"
    ],
-   "p_actual_winner": 0.438,
+   "p_actual_winner": 0.4537,
    "model": {
-    "winner": false,
+    "winner": true,
     "podium_hits": 3,
-    "exact": false
+    "exact": true
    },
    "baseline": {
     "winner": true,
@@ -1867,9 +1867,9 @@
    "round": 13,
    "eventName": "Italian Grand Prix",
    "predicted": [
+    "GAS",
     "RUS",
-    "ANT",
-    "LEC"
+    "PIA"
    ],
    "actual": [
     "ANT",
@@ -1881,10 +1881,10 @@
     "RUS",
     "PIA"
    ],
-   "p_actual_winner": 0.2887,
+   "p_actual_winner": 0.0913,
    "model": {
     "winner": false,
-    "podium_hits": 2,
+    "podium_hits": 1,
     "exact": false
    },
    "baseline": {
@@ -1898,8 +1898,8 @@
    "round": 14,
    "eventName": "Spanish Grand Prix",
    "predicted": [
-    "ANT",
     "NOR",
+    "ANT",
     "VER"
    ],
    "actual": [
@@ -1912,9 +1912,9 @@
     "ANT",
     "VER"
    ],
-   "p_actual_winner": 0.4666,
+   "p_actual_winner": 0.335,
    "model": {
-    "winner": true,
+    "winner": false,
     "podium_hits": 3,
     "exact": false
    },
@@ -1943,7 +1943,7 @@
     "LEC",
     "PIA"
    ],
-   "p_actual_winner": 0.7673,
+   "p_actual_winner": 0.609,
    "model": {
     "winner": true,
     "podium_hits": 1,
@@ -1961,8 +1961,8 @@
    "eventName": "Bahrain Grand Prix in Malaysia",
    "predicted": [
     "VER",
-    "ANT",
-    "HAM"
+    "HAM",
+    "ANT"
    ],
    "actual": [
     "VER",
@@ -1974,11 +1974,11 @@
     "HAM",
     "HAD"
    ],
-   "p_actual_winner": 0.6783,
+   "p_actual_winner": 0.533,
    "model": {
     "winner": true,
     "podium_hits": 3,
-    "exact": true
+    "exact": false
    },
    "baseline": {
     "winner": true,
@@ -1993,7 +1993,7 @@
    "predicted": [
     "VER",
     "LEC",
-    "ANT"
+    "HAM"
    ],
    "actual": [
     "VER",
@@ -2005,11 +2005,11 @@
     "LEC",
     "HAM"
    ],
-   "p_actual_winner": 0.8357,
+   "p_actual_winner": 0.5637,
    "model": {
     "winner": true,
-    "podium_hits": 3,
-    "exact": true
+    "podium_hits": 2,
+    "exact": false
    },
    "baseline": {
     "winner": true,
@@ -2036,7 +2036,7 @@
     "VER",
     "HAD"
    ],
-   "p_actual_winner": 0.6324,
+   "p_actual_winner": 0.5954,
    "model": {
     "winner": true,
     "podium_hits": 2,
@@ -2053,9 +2053,9 @@
    "round": 19,
    "eventName": "Mexico City Grand Prix",
    "predicted": [
-    "RUS",
     "HAM",
-    "VER"
+    "RUS",
+    "LEC"
    ],
    "actual": [
     "VER",
@@ -2067,10 +2067,10 @@
     "RUS",
     "LEC"
    ],
-   "p_actual_winner": 0.102,
+   "p_actual_winner": 0.0761,
    "model": {
     "winner": false,
-    "podium_hits": 2,
+    "podium_hits": 1,
     "exact": false
    },
    "baseline": {
@@ -2084,9 +2084,9 @@
   "overall": {
    "model": {
     "races": 67,
-    "winner_pct": 56.7,
-    "podium_hits_avg": 2.06,
-    "exact_pct": 9.0
+    "winner_pct": 61.2,
+    "podium_hits_avg": 2.0,
+    "exact_pct": 11.9
    },
    "baseline": {
     "races": 67,
@@ -2099,9 +2099,9 @@
    "2024": {
     "model": {
      "races": 24,
-     "winner_pct": 41.7,
-     "podium_hits_avg": 1.83,
-     "exact_pct": 4.2
+     "winner_pct": 50.0,
+     "podium_hits_avg": 1.88,
+     "exact_pct": 8.3
     },
     "baseline": {
      "races": 24,
@@ -2114,8 +2114,8 @@
     "model": {
      "races": 24,
      "winner_pct": 66.7,
-     "podium_hits_avg": 2.29,
-     "exact_pct": 12.5
+     "podium_hits_avg": 2.25,
+     "exact_pct": 16.7
     },
     "baseline": {
      "races": 24,
@@ -2127,8 +2127,8 @@
    "2026": {
     "model": {
      "races": 19,
-     "winner_pct": 63.2,
-     "podium_hits_avg": 2.05,
+     "winner_pct": 68.4,
+     "podium_hits_avg": 1.84,
      "exact_pct": 10.5
     },
     "baseline": {

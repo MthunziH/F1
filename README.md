@@ -34,8 +34,11 @@ GitHub app or website → **Actions** → **F1 prediction** → **Run workflow**
    points, podium/win/retirement rate, places gained), season points share, team form, the driver's
    record at this circuit, and how often pole converts to a win at this circuit.
 3. **Model**: two gradient-boosting classifiers (scikit-learn), one for *win* and one for *podium*.
-   They're retrained before every race on all earlier races. Probabilities are normalised per
-   race (win chances add up to 100%, podium chances to 300%).
+   They're retrained before every race on all earlier races, then blended 50/50 with a simple
+   prior: how often each grid slot has historically won or reached the podium. In the backtest
+   the pure model over-ruled the pole sitter on form too often. The blend fixed that and kept the
+   model's better-calibrated odds. Probabilities are normalised per race (win chances add up
+   to 100%, podium chances to 300%).
 4. **Predicted podium**: P1 is the most likely winner. P2 and P3 are the next most likely podium finishers.
 5. **Backtest**: every race since 2024 is replayed using only data from before it, and
    compared with the simple "qualifying top 3 = podium" rule.
