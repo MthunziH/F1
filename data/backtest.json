@@ -1,0 +1,2143 @@
+{
+ "generated_utc": "2026-11-03T12:17:11Z",
+ "from_season": 2024,
+ "races": [
+  {
+   "season": 2024,
+   "round": 1,
+   "eventName": "Bahrain Grand Prix",
+   "predicted": [
+    "VER",
+    "LEC",
+    "RUS"
+   ],
+   "actual": [
+    "VER",
+    "PER",
+    "SAI"
+   ],
+   "grid_top3": [
+    "VER",
+    "LEC",
+    "RUS"
+   ],
+   "p_actual_winner": 0.9391,
+   "model": {
+    "winner": true,
+    "podium_hits": 1,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 1,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 2,
+   "eventName": "Saudi Arabian Grand Prix",
+   "predicted": [
+    "VER",
+    "PER",
+    "LEC"
+   ],
+   "actual": [
+    "VER",
+    "PER",
+    "LEC"
+   ],
+   "grid_top3": [
+    "VER",
+    "LEC",
+    "PER"
+   ],
+   "p_actual_winner": 0.9652,
+   "model": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": true
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 3,
+   "eventName": "Australian Grand Prix",
+   "predicted": [
+    "VER",
+    "PER",
+    "SAI"
+   ],
+   "actual": [
+    "SAI",
+    "LEC",
+    "NOR"
+   ],
+   "grid_top3": [
+    "VER",
+    "SAI",
+    "PER"
+   ],
+   "p_actual_winner": 0.0236,
+   "model": {
+    "winner": false,
+    "podium_hits": 1,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 1,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 4,
+   "eventName": "Japanese Grand Prix",
+   "predicted": [
+    "VER",
+    "PER",
+    "NOR"
+   ],
+   "actual": [
+    "VER",
+    "PER",
+    "SAI"
+   ],
+   "grid_top3": [
+    "VER",
+    "PER",
+    "NOR"
+   ],
+   "p_actual_winner": 0.6724,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 5,
+   "eventName": "Chinese Grand Prix",
+   "predicted": [
+    "PER",
+    "VER",
+    "LEC"
+   ],
+   "actual": [
+    "VER",
+    "NOR",
+    "PER"
+   ],
+   "grid_top3": [
+    "VER",
+    "PER",
+    "ALO"
+   ],
+   "p_actual_winner": 0.4525,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 6,
+   "eventName": "Miami Grand Prix",
+   "predicted": [
+    "VER",
+    "PER",
+    "LEC"
+   ],
+   "actual": [
+    "NOR",
+    "VER",
+    "LEC"
+   ],
+   "grid_top3": [
+    "VER",
+    "LEC",
+    "SAI"
+   ],
+   "p_actual_winner": 0.0076,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 7,
+   "eventName": "Emilia Romagna Grand Prix",
+   "predicted": [
+    "VER",
+    "PIA",
+    "NOR"
+   ],
+   "actual": [
+    "VER",
+    "NOR",
+    "LEC"
+   ],
+   "grid_top3": [
+    "VER",
+    "PIA",
+    "NOR"
+   ],
+   "p_actual_winner": 0.7023,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 8,
+   "eventName": "Monaco Grand Prix",
+   "predicted": [
+    "VER",
+    "LEC",
+    "PIA"
+   ],
+   "actual": [
+    "LEC",
+    "PIA",
+    "SAI"
+   ],
+   "grid_top3": [
+    "LEC",
+    "PIA",
+    "SAI"
+   ],
+   "p_actual_winner": 0.1518,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": true
+   }
+  },
+  {
+   "season": 2024,
+   "round": 9,
+   "eventName": "Canadian Grand Prix",
+   "predicted": [
+    "VER",
+    "RUS",
+    "NOR"
+   ],
+   "actual": [
+    "VER",
+    "NOR",
+    "RUS"
+   ],
+   "grid_top3": [
+    "RUS",
+    "VER",
+    "NOR"
+   ],
+   "p_actual_winner": 0.5641,
+   "model": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 3,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 10,
+   "eventName": "Spanish Grand Prix",
+   "predicted": [
+    "VER",
+    "NOR",
+    "LEC"
+   ],
+   "actual": [
+    "VER",
+    "NOR",
+    "HAM"
+   ],
+   "grid_top3": [
+    "NOR",
+    "VER",
+    "HAM"
+   ],
+   "p_actual_winner": 0.5671,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 3,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 11,
+   "eventName": "Austrian Grand Prix",
+   "predicted": [
+    "VER",
+    "RUS",
+    "SAI"
+   ],
+   "actual": [
+    "RUS",
+    "PIA",
+    "SAI"
+   ],
+   "grid_top3": [
+    "VER",
+    "NOR",
+    "RUS"
+   ],
+   "p_actual_winner": 0.0924,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 1,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 12,
+   "eventName": "British Grand Prix",
+   "predicted": [
+    "RUS",
+    "VER",
+    "HAM"
+   ],
+   "actual": [
+    "HAM",
+    "VER",
+    "NOR"
+   ],
+   "grid_top3": [
+    "RUS",
+    "HAM",
+    "NOR"
+   ],
+   "p_actual_winner": 0.073,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 13,
+   "eventName": "Hungarian Grand Prix",
+   "predicted": [
+    "NOR",
+    "VER",
+    "PIA"
+   ],
+   "actual": [
+    "PIA",
+    "NOR",
+    "HAM"
+   ],
+   "grid_top3": [
+    "NOR",
+    "PIA",
+    "VER"
+   ],
+   "p_actual_winner": 0.0478,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 14,
+   "eventName": "Belgian Grand Prix",
+   "predicted": [
+    "VER",
+    "LEC",
+    "HAM"
+   ],
+   "actual": [
+    "HAM",
+    "PIA",
+    "LEC"
+   ],
+   "grid_top3": [
+    "VER",
+    "LEC",
+    "PER"
+   ],
+   "p_actual_winner": 0.0657,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 1,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 15,
+   "eventName": "Dutch Grand Prix",
+   "predicted": [
+    "NOR",
+    "VER",
+    "RUS"
+   ],
+   "actual": [
+    "NOR",
+    "VER",
+    "LEC"
+   ],
+   "grid_top3": [
+    "NOR",
+    "VER",
+    "PIA"
+   ],
+   "p_actual_winner": 0.8253,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 16,
+   "eventName": "Italian Grand Prix",
+   "predicted": [
+    "NOR",
+    "RUS",
+    "PIA"
+   ],
+   "actual": [
+    "LEC",
+    "PIA",
+    "NOR"
+   ],
+   "grid_top3": [
+    "NOR",
+    "PIA",
+    "RUS"
+   ],
+   "p_actual_winner": 0.003,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 17,
+   "eventName": "Azerbaijan Grand Prix",
+   "predicted": [
+    "LEC",
+    "PIA",
+    "SAI"
+   ],
+   "actual": [
+    "PIA",
+    "LEC",
+    "RUS"
+   ],
+   "grid_top3": [
+    "LEC",
+    "PIA",
+    "SAI"
+   ],
+   "p_actual_winner": 0.2682,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 18,
+   "eventName": "Singapore Grand Prix",
+   "predicted": [
+    "NOR",
+    "HAM",
+    "PIA"
+   ],
+   "actual": [
+    "NOR",
+    "VER",
+    "PIA"
+   ],
+   "grid_top3": [
+    "NOR",
+    "VER",
+    "HAM"
+   ],
+   "p_actual_winner": 0.8976,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 19,
+   "eventName": "United States Grand Prix",
+   "predicted": [
+    "NOR",
+    "VER",
+    "PIA"
+   ],
+   "actual": [
+    "LEC",
+    "SAI",
+    "VER"
+   ],
+   "grid_top3": [
+    "NOR",
+    "VER",
+    "SAI"
+   ],
+   "p_actual_winner": 0.0071,
+   "model": {
+    "winner": false,
+    "podium_hits": 1,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 20,
+   "eventName": "Mexico City Grand Prix",
+   "predicted": [
+    "NOR",
+    "VER",
+    "SAI"
+   ],
+   "actual": [
+    "SAI",
+    "NOR",
+    "LEC"
+   ],
+   "grid_top3": [
+    "SAI",
+    "VER",
+    "NOR"
+   ],
+   "p_actual_winner": 0.3003,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 21,
+   "eventName": "S\u00e3o Paulo Grand Prix",
+   "predicted": [
+    "NOR",
+    "RUS",
+    "LEC"
+   ],
+   "actual": [
+    "VER",
+    "OCO",
+    "GAS"
+   ],
+   "grid_top3": [
+    "NOR",
+    "RUS",
+    "TSU"
+   ],
+   "p_actual_winner": 0.0008,
+   "model": {
+    "winner": false,
+    "podium_hits": 0,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 0,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 22,
+   "eventName": "Las Vegas Grand Prix",
+   "predicted": [
+    "RUS",
+    "SAI",
+    "LEC"
+   ],
+   "actual": [
+    "RUS",
+    "HAM",
+    "SAI"
+   ],
+   "grid_top3": [
+    "RUS",
+    "SAI",
+    "GAS"
+   ],
+   "p_actual_winner": 0.8431,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 23,
+   "eventName": "Qatar Grand Prix",
+   "predicted": [
+    "RUS",
+    "PIA",
+    "VER"
+   ],
+   "actual": [
+    "VER",
+    "LEC",
+    "PIA"
+   ],
+   "grid_top3": [
+    "VER",
+    "RUS",
+    "NOR"
+   ],
+   "p_actual_winner": 0.1313,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 1,
+    "exact": false
+   }
+  },
+  {
+   "season": 2024,
+   "round": 24,
+   "eventName": "Abu Dhabi Grand Prix",
+   "predicted": [
+    "NOR",
+    "PIA",
+    "HUL"
+   ],
+   "actual": [
+    "NOR",
+    "SAI",
+    "LEC"
+   ],
+   "grid_top3": [
+    "NOR",
+    "PIA",
+    "SAI"
+   ],
+   "p_actual_winner": 0.4915,
+   "model": {
+    "winner": true,
+    "podium_hits": 1,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 1,
+   "eventName": "Australian Grand Prix",
+   "predicted": [
+    "NOR",
+    "PIA",
+    "VER"
+   ],
+   "actual": [
+    "NOR",
+    "VER",
+    "RUS"
+   ],
+   "grid_top3": [
+    "NOR",
+    "PIA",
+    "VER"
+   ],
+   "p_actual_winner": 0.5627,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 2,
+   "eventName": "Chinese Grand Prix",
+   "predicted": [
+    "RUS",
+    "PIA",
+    "NOR"
+   ],
+   "actual": [
+    "PIA",
+    "NOR",
+    "RUS"
+   ],
+   "grid_top3": [
+    "PIA",
+    "RUS",
+    "NOR"
+   ],
+   "p_actual_winner": 0.3483,
+   "model": {
+    "winner": false,
+    "podium_hits": 3,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 3,
+   "eventName": "Japanese Grand Prix",
+   "predicted": [
+    "VER",
+    "NOR",
+    "PIA"
+   ],
+   "actual": [
+    "VER",
+    "NOR",
+    "PIA"
+   ],
+   "grid_top3": [
+    "VER",
+    "NOR",
+    "PIA"
+   ],
+   "p_actual_winner": 0.7411,
+   "model": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": true
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": true
+   }
+  },
+  {
+   "season": 2025,
+   "round": 4,
+   "eventName": "Bahrain Grand Prix",
+   "predicted": [
+    "PIA",
+    "RUS",
+    "LEC"
+   ],
+   "actual": [
+    "PIA",
+    "RUS",
+    "NOR"
+   ],
+   "grid_top3": [
+    "PIA",
+    "RUS",
+    "LEC"
+   ],
+   "p_actual_winner": 0.8279,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 5,
+   "eventName": "Saudi Arabian Grand Prix",
+   "predicted": [
+    "VER",
+    "PIA",
+    "RUS"
+   ],
+   "actual": [
+    "PIA",
+    "VER",
+    "LEC"
+   ],
+   "grid_top3": [
+    "VER",
+    "PIA",
+    "RUS"
+   ],
+   "p_actual_winner": 0.1405,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 6,
+   "eventName": "Miami Grand Prix",
+   "predicted": [
+    "NOR",
+    "PIA",
+    "VER"
+   ],
+   "actual": [
+    "PIA",
+    "NOR",
+    "RUS"
+   ],
+   "grid_top3": [
+    "VER",
+    "NOR",
+    "ANT"
+   ],
+   "p_actual_winner": 0.0465,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 1,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 7,
+   "eventName": "Emilia Romagna Grand Prix",
+   "predicted": [
+    "PIA",
+    "VER",
+    "RUS"
+   ],
+   "actual": [
+    "VER",
+    "NOR",
+    "PIA"
+   ],
+   "grid_top3": [
+    "PIA",
+    "VER",
+    "RUS"
+   ],
+   "p_actual_winner": 0.1295,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 8,
+   "eventName": "Monaco Grand Prix",
+   "predicted": [
+    "NOR",
+    "PIA",
+    "LEC"
+   ],
+   "actual": [
+    "NOR",
+    "LEC",
+    "PIA"
+   ],
+   "grid_top3": [
+    "NOR",
+    "LEC",
+    "PIA"
+   ],
+   "p_actual_winner": 0.6928,
+   "model": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": true
+   }
+  },
+  {
+   "season": 2025,
+   "round": 9,
+   "eventName": "Spanish Grand Prix",
+   "predicted": [
+    "PIA",
+    "VER",
+    "NOR"
+   ],
+   "actual": [
+    "PIA",
+    "NOR",
+    "LEC"
+   ],
+   "grid_top3": [
+    "PIA",
+    "NOR",
+    "VER"
+   ],
+   "p_actual_winner": 0.5495,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 10,
+   "eventName": "Canadian Grand Prix",
+   "predicted": [
+    "RUS",
+    "PIA",
+    "VER"
+   ],
+   "actual": [
+    "RUS",
+    "VER",
+    "ANT"
+   ],
+   "grid_top3": [
+    "RUS",
+    "VER",
+    "PIA"
+   ],
+   "p_actual_winner": 0.5111,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 11,
+   "eventName": "Austrian Grand Prix",
+   "predicted": [
+    "NOR",
+    "PIA",
+    "LEC"
+   ],
+   "actual": [
+    "NOR",
+    "PIA",
+    "LEC"
+   ],
+   "grid_top3": [
+    "NOR",
+    "LEC",
+    "PIA"
+   ],
+   "p_actual_winner": 0.6986,
+   "model": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": true
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 12,
+   "eventName": "British Grand Prix",
+   "predicted": [
+    "PIA",
+    "VER",
+    "NOR"
+   ],
+   "actual": [
+    "NOR",
+    "PIA",
+    "HUL"
+   ],
+   "grid_top3": [
+    "VER",
+    "PIA",
+    "NOR"
+   ],
+   "p_actual_winner": 0.079,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 13,
+   "eventName": "Belgian Grand Prix",
+   "predicted": [
+    "NOR",
+    "PIA",
+    "LEC"
+   ],
+   "actual": [
+    "PIA",
+    "NOR",
+    "LEC"
+   ],
+   "grid_top3": [
+    "NOR",
+    "PIA",
+    "LEC"
+   ],
+   "p_actual_winner": 0.0612,
+   "model": {
+    "winner": false,
+    "podium_hits": 3,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 3,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 14,
+   "eventName": "Hungarian Grand Prix",
+   "predicted": [
+    "NOR",
+    "PIA",
+    "LEC"
+   ],
+   "actual": [
+    "NOR",
+    "PIA",
+    "RUS"
+   ],
+   "grid_top3": [
+    "LEC",
+    "PIA",
+    "NOR"
+   ],
+   "p_actual_winner": 0.4349,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 15,
+   "eventName": "Dutch Grand Prix",
+   "predicted": [
+    "PIA",
+    "NOR",
+    "RUS"
+   ],
+   "actual": [
+    "PIA",
+    "VER",
+    "HAD"
+   ],
+   "grid_top3": [
+    "PIA",
+    "NOR",
+    "VER"
+   ],
+   "p_actual_winner": 0.4939,
+   "model": {
+    "winner": true,
+    "podium_hits": 1,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 16,
+   "eventName": "Italian Grand Prix",
+   "predicted": [
+    "VER",
+    "NOR",
+    "PIA"
+   ],
+   "actual": [
+    "VER",
+    "NOR",
+    "PIA"
+   ],
+   "grid_top3": [
+    "VER",
+    "NOR",
+    "PIA"
+   ],
+   "p_actual_winner": 0.6069,
+   "model": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": true
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": true
+   }
+  },
+  {
+   "season": 2025,
+   "round": 17,
+   "eventName": "Azerbaijan Grand Prix",
+   "predicted": [
+    "VER",
+    "RUS",
+    "NOR"
+   ],
+   "actual": [
+    "VER",
+    "RUS",
+    "SAI"
+   ],
+   "grid_top3": [
+    "VER",
+    "SAI",
+    "LAW"
+   ],
+   "p_actual_winner": 0.7323,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 18,
+   "eventName": "Singapore Grand Prix",
+   "predicted": [
+    "RUS",
+    "PIA",
+    "NOR"
+   ],
+   "actual": [
+    "RUS",
+    "VER",
+    "NOR"
+   ],
+   "grid_top3": [
+    "RUS",
+    "VER",
+    "PIA"
+   ],
+   "p_actual_winner": 0.6482,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 19,
+   "eventName": "United States Grand Prix",
+   "predicted": [
+    "VER",
+    "LEC",
+    "NOR"
+   ],
+   "actual": [
+    "VER",
+    "NOR",
+    "LEC"
+   ],
+   "grid_top3": [
+    "VER",
+    "NOR",
+    "LEC"
+   ],
+   "p_actual_winner": 0.3394,
+   "model": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": true
+   }
+  },
+  {
+   "season": 2025,
+   "round": 20,
+   "eventName": "Mexico City Grand Prix",
+   "predicted": [
+    "NOR",
+    "VER",
+    "LEC"
+   ],
+   "actual": [
+    "NOR",
+    "LEC",
+    "VER"
+   ],
+   "grid_top3": [
+    "NOR",
+    "LEC",
+    "HAM"
+   ],
+   "p_actual_winner": 0.5948,
+   "model": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 21,
+   "eventName": "S\u00e3o Paulo Grand Prix",
+   "predicted": [
+    "NOR",
+    "LEC",
+    "VER"
+   ],
+   "actual": [
+    "NOR",
+    "ANT",
+    "VER"
+   ],
+   "grid_top3": [
+    "NOR",
+    "ANT",
+    "LEC"
+   ],
+   "p_actual_winner": 0.8696,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 22,
+   "eventName": "Las Vegas Grand Prix",
+   "predicted": [
+    "NOR",
+    "VER",
+    "SAI"
+   ],
+   "actual": [
+    "VER",
+    "RUS",
+    "ANT"
+   ],
+   "grid_top3": [
+    "NOR",
+    "VER",
+    "SAI"
+   ],
+   "p_actual_winner": 0.308,
+   "model": {
+    "winner": false,
+    "podium_hits": 1,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 1,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 23,
+   "eventName": "Qatar Grand Prix",
+   "predicted": [
+    "PIA",
+    "VER",
+    "NOR"
+   ],
+   "actual": [
+    "VER",
+    "PIA",
+    "SAI"
+   ],
+   "grid_top3": [
+    "PIA",
+    "NOR",
+    "VER"
+   ],
+   "p_actual_winner": 0.2703,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2025,
+   "round": 24,
+   "eventName": "Abu Dhabi Grand Prix",
+   "predicted": [
+    "VER",
+    "NOR",
+    "PIA"
+   ],
+   "actual": [
+    "VER",
+    "PIA",
+    "NOR"
+   ],
+   "grid_top3": [
+    "VER",
+    "NOR",
+    "PIA"
+   ],
+   "p_actual_winner": 0.9242,
+   "model": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 1,
+   "eventName": "Australian Grand Prix",
+   "predicted": [
+    "RUS",
+    "HAD",
+    "ANT"
+   ],
+   "actual": [
+    "RUS",
+    "ANT",
+    "LEC"
+   ],
+   "grid_top3": [
+    "RUS",
+    "ANT",
+    "HAD"
+   ],
+   "p_actual_winner": 0.8055,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 2,
+   "eventName": "Chinese Grand Prix",
+   "predicted": [
+    "ANT",
+    "HAM",
+    "LEC"
+   ],
+   "actual": [
+    "ANT",
+    "RUS",
+    "HAM"
+   ],
+   "grid_top3": [
+    "ANT",
+    "RUS",
+    "HAM"
+   ],
+   "p_actual_winner": 0.7267,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": true
+   }
+  },
+  {
+   "season": 2026,
+   "round": 3,
+   "eventName": "Japanese Grand Prix",
+   "predicted": [
+    "ANT",
+    "RUS",
+    "LEC"
+   ],
+   "actual": [
+    "ANT",
+    "PIA",
+    "LEC"
+   ],
+   "grid_top3": [
+    "ANT",
+    "RUS",
+    "PIA"
+   ],
+   "p_actual_winner": 0.9064,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 4,
+   "eventName": "Miami Grand Prix",
+   "predicted": [
+    "ANT",
+    "LEC",
+    "NOR"
+   ],
+   "actual": [
+    "ANT",
+    "NOR",
+    "PIA"
+   ],
+   "grid_top3": [
+    "ANT",
+    "VER",
+    "LEC"
+   ],
+   "p_actual_winner": 0.6353,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 1,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 5,
+   "eventName": "Canadian Grand Prix",
+   "predicted": [
+    "RUS",
+    "ANT",
+    "NOR"
+   ],
+   "actual": [
+    "ANT",
+    "HAM",
+    "VER"
+   ],
+   "grid_top3": [
+    "RUS",
+    "ANT",
+    "NOR"
+   ],
+   "p_actual_winner": 0.1785,
+   "model": {
+    "winner": false,
+    "podium_hits": 1,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 1,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 6,
+   "eventName": "Monaco Grand Prix",
+   "predicted": [
+    "ANT",
+    "HAM",
+    "VER"
+   ],
+   "actual": [
+    "ANT",
+    "HAM",
+    "HAD"
+   ],
+   "grid_top3": [
+    "ANT",
+    "VER",
+    "HAM"
+   ],
+   "p_actual_winner": 0.9307,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 7,
+   "eventName": "Barcelona Grand Prix",
+   "predicted": [
+    "ANT",
+    "RUS",
+    "HAM"
+   ],
+   "actual": [
+    "HAM",
+    "RUS",
+    "NOR"
+   ],
+   "grid_top3": [
+    "RUS",
+    "HAM",
+    "ANT"
+   ],
+   "p_actual_winner": 0.0287,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 8,
+   "eventName": "Austrian Grand Prix",
+   "predicted": [
+    "RUS",
+    "ANT",
+    "HAM"
+   ],
+   "actual": [
+    "RUS",
+    "VER",
+    "ANT"
+   ],
+   "grid_top3": [
+    "RUS",
+    "LEC",
+    "HAM"
+   ],
+   "p_actual_winner": 0.8035,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 1,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 9,
+   "eventName": "British Grand Prix",
+   "predicted": [
+    "ANT",
+    "HAM",
+    "RUS"
+   ],
+   "actual": [
+    "LEC",
+    "RUS",
+    "HAM"
+   ],
+   "grid_top3": [
+    "ANT",
+    "LEC",
+    "HAM"
+   ],
+   "p_actual_winner": 0.0068,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 10,
+   "eventName": "Belgian Grand Prix",
+   "predicted": [
+    "ANT",
+    "VER",
+    "NOR"
+   ],
+   "actual": [
+    "ANT",
+    "LEC",
+    "VER"
+   ],
+   "grid_top3": [
+    "ANT",
+    "VER",
+    "NOR"
+   ],
+   "p_actual_winner": 0.8793,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 11,
+   "eventName": "Hungarian Grand Prix",
+   "predicted": [
+    "HAM",
+    "ANT",
+    "LEC"
+   ],
+   "actual": [
+    "NOR",
+    "VER",
+    "ANT"
+   ],
+   "grid_top3": [
+    "NOR",
+    "HAM",
+    "LEC"
+   ],
+   "p_actual_winner": 0.1293,
+   "model": {
+    "winner": false,
+    "podium_hits": 1,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 1,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 12,
+   "eventName": "Dutch Grand Prix",
+   "predicted": [
+    "ANT",
+    "NOR",
+    "RUS"
+   ],
+   "actual": [
+    "NOR",
+    "ANT",
+    "RUS"
+   ],
+   "grid_top3": [
+    "NOR",
+    "RUS",
+    "ANT"
+   ],
+   "p_actual_winner": 0.438,
+   "model": {
+    "winner": false,
+    "podium_hits": 3,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 13,
+   "eventName": "Italian Grand Prix",
+   "predicted": [
+    "RUS",
+    "ANT",
+    "LEC"
+   ],
+   "actual": [
+    "ANT",
+    "RUS",
+    "VER"
+   ],
+   "grid_top3": [
+    "GAS",
+    "RUS",
+    "PIA"
+   ],
+   "p_actual_winner": 0.2887,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 1,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 14,
+   "eventName": "Spanish Grand Prix",
+   "predicted": [
+    "ANT",
+    "NOR",
+    "VER"
+   ],
+   "actual": [
+    "ANT",
+    "VER",
+    "NOR"
+   ],
+   "grid_top3": [
+    "NOR",
+    "ANT",
+    "VER"
+   ],
+   "p_actual_winner": 0.4666,
+   "model": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 3,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 15,
+   "eventName": "Azerbaijan Grand Prix",
+   "predicted": [
+    "RUS",
+    "LEC",
+    "PIA"
+   ],
+   "actual": [
+    "RUS",
+    "VER",
+    "HAD"
+   ],
+   "grid_top3": [
+    "RUS",
+    "LEC",
+    "PIA"
+   ],
+   "p_actual_winner": 0.7673,
+   "model": {
+    "winner": true,
+    "podium_hits": 1,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 1,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 16,
+   "eventName": "Bahrain Grand Prix in Malaysia",
+   "predicted": [
+    "VER",
+    "ANT",
+    "HAM"
+   ],
+   "actual": [
+    "VER",
+    "ANT",
+    "HAM"
+   ],
+   "grid_top3": [
+    "VER",
+    "HAM",
+    "HAD"
+   ],
+   "p_actual_winner": 0.6783,
+   "model": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": true
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 17,
+   "eventName": "Singapore Grand Prix",
+   "predicted": [
+    "VER",
+    "LEC",
+    "ANT"
+   ],
+   "actual": [
+    "VER",
+    "LEC",
+    "ANT"
+   ],
+   "grid_top3": [
+    "VER",
+    "LEC",
+    "HAM"
+   ],
+   "p_actual_winner": 0.8357,
+   "model": {
+    "winner": true,
+    "podium_hits": 3,
+    "exact": true
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 18,
+   "eventName": "United States Grand Prix",
+   "predicted": [
+    "ANT",
+    "VER",
+    "HAD"
+   ],
+   "actual": [
+    "ANT",
+    "LEC",
+    "VER"
+   ],
+   "grid_top3": [
+    "ANT",
+    "VER",
+    "HAD"
+   ],
+   "p_actual_winner": 0.6324,
+   "model": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 2,
+    "exact": false
+   }
+  },
+  {
+   "season": 2026,
+   "round": 19,
+   "eventName": "Mexico City Grand Prix",
+   "predicted": [
+    "RUS",
+    "HAM",
+    "VER"
+   ],
+   "actual": [
+    "VER",
+    "HAM",
+    "ANT"
+   ],
+   "grid_top3": [
+    "HAM",
+    "RUS",
+    "LEC"
+   ],
+   "p_actual_winner": 0.102,
+   "model": {
+    "winner": false,
+    "podium_hits": 2,
+    "exact": false
+   },
+   "baseline": {
+    "winner": false,
+    "podium_hits": 1,
+    "exact": false
+   }
+  }
+ ],
+ "summary": {
+  "overall": {
+   "model": {
+    "races": 67,
+    "winner_pct": 56.7,
+    "podium_hits_avg": 2.06,
+    "exact_pct": 9.0
+   },
+   "baseline": {
+    "races": 67,
+    "winner_pct": 61.2,
+    "podium_hits_avg": 1.99,
+    "exact_pct": 9.0
+   }
+  },
+  "by_season": {
+   "2024": {
+    "model": {
+     "races": 24,
+     "winner_pct": 41.7,
+     "podium_hits_avg": 1.83,
+     "exact_pct": 4.2
+    },
+    "baseline": {
+     "races": 24,
+     "winner_pct": 50.0,
+     "podium_hits_avg": 1.88,
+     "exact_pct": 4.2
+    }
+   },
+   "2025": {
+    "model": {
+     "races": 24,
+     "winner_pct": 66.7,
+     "podium_hits_avg": 2.29,
+     "exact_pct": 12.5
+    },
+    "baseline": {
+     "races": 24,
+     "winner_pct": 66.7,
+     "podium_hits_avg": 2.25,
+     "exact_pct": 16.7
+    }
+   },
+   "2026": {
+    "model": {
+     "races": 19,
+     "winner_pct": 63.2,
+     "podium_hits_avg": 2.05,
+     "exact_pct": 10.5
+    },
+    "baseline": {
+     "races": 19,
+     "winner_pct": 68.4,
+     "podium_hits_avg": 1.79,
+     "exact_pct": 5.3
+    }
+   }
+  }
+ }
+}
