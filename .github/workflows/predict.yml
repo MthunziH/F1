@@ -1,0 +1,101 @@
+name: F1 prediction
+
+on:
+  schedule:
+    # Hourly through Friday and Saturday (UTC) to catch the end of qualifying,
+    # plus early Sunday for late-night qualifying sessions (e.g. Las Vegas).
+    - cron: "17 * * * 5,6"
+    - cron: "17 0-6 * * 0"
+    # After races: record the real result and score the prediction.
+    - cron: "47 19,22 * * 0"
+    - cron: "47 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      command:
+        description: "What to run"
+        type: choice
+        options: [auto, predict, backtest]
+        default: auto
+      season:
+        description: "Season (for predict)"
+        required: false
+      round:
+        description: "Round number (for predict)"
+        required: false
+      force:
+        description: "Redo an existing prediction"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ["f1predict/**", "requirements.txt", ".github/workflows/predict.yml"]
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: f1-prediction
+  cancel-in-progress: false
+
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install
+        run: pip install -r requirements.txt pytest
+
+      - name: Test
+        run: pytest -q
+
+      - name: Run
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FASTF1_CACHE: ${{ runner.temp }}/fastf1-cache
+          CMD: ${{ inputs.command || 'auto' }}
+          SEASON: ${{ inputs.season }}
+          ROUND: ${{ inputs.round }}
+          FORCE: ${{ inputs.force && '--force' || '' }}
+        run: |
+          case "$CMD" in
+            predict)  python -m f1predict predict --season "$SEASON" --round "$ROUND" $FORCE ;;
+            backtest) python -m f1predict backtest && python -m f1predict site ;;
+            *)        python -m f1predict auto ;;
+          esac
+
+      - name: Save data to the repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data predictions
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Update F1 data and predictions"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: predict
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

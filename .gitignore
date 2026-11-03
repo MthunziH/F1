@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.fastf1-cache/
+site/
+.venv/
+.pytest_cache/
