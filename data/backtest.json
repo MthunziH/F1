@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-11-03T12:34:24Z",
+ "generated_utc": "2026-11-08T23:10:39Z",
  "from_season": 2024,
  "races": [
   {
@@ -2078,21 +2078,52 @@
     "podium_hits": 1,
     "exact": false
    }
+  },
+  {
+   "season": 2026,
+   "round": 20,
+   "eventName": "Brazilian Grand Prix",
+   "predicted": [
+    "ANT",
+    "NOR",
+    "RUS"
+   ],
+   "actual": [
+    "NOR",
+    "VER",
+    "HAD"
+   ],
+   "grid_top3": [
+    "NOR",
+    "RUS",
+    "ANT"
+   ],
+   "p_actual_winner": 0.3083,
+   "model": {
+    "winner": false,
+    "podium_hits": 1,
+    "exact": false
+   },
+   "baseline": {
+    "winner": true,
+    "podium_hits": 1,
+    "exact": false
+   }
   }
  ],
  "summary": {
   "overall": {
    "model": {
-    "races": 67,
-    "winner_pct": 61.2,
-    "podium_hits_avg": 2.0,
-    "exact_pct": 11.9
+    "races": 68,
+    "winner_pct": 60.3,
+    "podium_hits_avg": 1.99,
+    "exact_pct": 11.8
    },
    "baseline": {
-    "races": 67,
-    "winner_pct": 61.2,
-    "podium_hits_avg": 1.99,
-    "exact_pct": 9.0
+    "races": 68,
+    "winner_pct": 61.8,
+    "podium_hits_avg": 1.97,
+    "exact_pct": 8.8
    }
   },
   "by_season": {
@@ -2126,16 +2157,16 @@
    },
    "2026": {
     "model": {
-     "races": 19,
-     "winner_pct": 68.4,
-     "podium_hits_avg": 1.84,
-     "exact_pct": 10.5
+     "races": 20,
+     "winner_pct": 65.0,
+     "podium_hits_avg": 1.8,
+     "exact_pct": 10.0
     },
     "baseline": {
-     "races": 19,
-     "winner_pct": 68.4,
-     "podium_hits_avg": 1.79,
-     "exact_pct": 5.3
+     "races": 20,
+     "winner_pct": 70.0,
+     "podium_hits_avg": 1.75,
+     "exact_pct": 5.0
     }
    }
   }

@@ -212,7 +212,17 @@
       "p_podium": 0.0082
     }
   ],
-  "actual": null,
-  "score": null,
+  "actual": {
+    "podium": [
+      "NOR",
+      "VER",
+      "HAD"
+    ]
+  },
+  "score": {
+    "winner": false,
+    "podium_hits": 1,
+    "exact": false
+  },
   "issue_number": 1
 }
